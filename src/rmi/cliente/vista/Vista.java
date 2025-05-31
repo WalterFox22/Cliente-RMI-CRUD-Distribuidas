@@ -134,10 +134,10 @@ public class Vista extends JFrame {
 
     private void habilitarCampos(boolean clave, boolean nombre, boolean correo, boolean cargo, boolean sueldo) {
         txtClave.setEnabled(clave);
-        txtNombre.setEnabled(nombre);
-        txtCorreo.setEnabled(correo);
-        txtCargo.setEnabled(cargo);
-        txtSueldo.setEnabled(sueldo);
+        txtNombre.setEditable(nombre);
+        txtCorreo.setEditable(correo);
+        txtCargo.setEditable(cargo);
+        txtSueldo.setEditable(sueldo);
     }
 
     private void consultarEmpleado() {
